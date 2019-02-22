@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单示例</title>
+</head>
+<body>
+<form >
+	<table align="center">
+		<tr>
+			<td>账号：</td>
+			<td><input type="text" name="id" placeholder="请输入想注册的账号"></td>
+		</tr>
+		<tr>
+			<td>密码：</td>
+			<td><input type="password" name="pwd" placeholder="请设置您账号的登入密码"></td>
+		</tr>
+		<tr>
+			<td>重复密码：</td>
+			<td><input type="password" name="repeat-pwd" placeholder="再次输入密码"></td>
+		</tr>
+		<tr>
+			<td>验证码：</td>
+			<td><input type="text" name="verify" placeholder="请输入六位验证码"></td>
+		</tr>
+		<tr>
+			<td>性别：</td>
+			<td>
+				<input type="radio" name="male">男 
+				<input type="radio" name="female">女
+			</td>
+		</tr>
+		<tr>
+			<td>玩过什么游戏</td>
+			<td>
+				<input type="checkbox" name="lol">英雄联盟
+				<input type="checkbox" name="cf">穿越火线
+				<input type="checkbox" name="war">魔兽世界
+				<input type="checkbox" name="pigu">守望先锋
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<select name="year">
+					<option value="default" style="display: none;">年</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button type="submit">按钮</button>
+				<button type="submit">提交</button>
+				<button type="reset">重置</button>
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
