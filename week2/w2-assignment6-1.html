@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css布局示例1</title>
+</head>
+<body>
+	<style type="text/css">
+		img {
+			height: 180px;
+			width: 280px;
+			padding: 10px 20px 0px 20px;
+		}
+		p {
+			margin-top: 0px;
+			margin-bottom: 10px;
+			padding: 0px;
+			text-align: center;
+		}
+		.album {
+			float: left;
+			background-color: #F0F0F0;
+			margin: 20px 0px 40px 20px;
+		}
+		#container {
+			background-color: #99FFCC;
+			margin: 0px auto;
+			overflow: auto;
+		}
+	</style>
+
+	<div id="container">
+		<div class="album">
+			<div>
+				<img src="./imgs/pools.jpeg">
+			</div>
+			<div>
+				<p>翱翔天际</p>
+			</div>
+		</div>
+		<div class="album">
+			<div>
+				<img src="./imgs/trees.jpg">
+			</div>
+			<div>
+				<p>绿草茵茵</p>
+			</div>
+		</div>
+		<div class="album">
+			<div>
+				<img src="./imgs/waterfall.jpg">
+			</div>
+			<div>
+				<p>蓝天白云</p>
+			</div>
+		</div>
+		<div class="album">
+			<div>
+				<img src="./imgs/flowers.jpg">
+			</div>
+			<div>
+				<p>鲜花盛开</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

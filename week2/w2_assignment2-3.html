@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css选择器3</title>
+</head>
+<body>
+	<div title="demo">demo</div>
+	<div title="demo2">demo2</div>
+	<div>no title1</div>
+	<div title="demo4">demo4</div>
+	<div>no title2</div>
+	<div title="demo6">demo6</div>
+	<div title="zh-demo7">zh-demo7</div>
+	<div title="zh">zh8</div>
+	<div title="zh">zh9</div>
+	<div title="zh-demo10">zh-demo10</div>
+<!-- CSS -->
+	<style type="text/css">
+		div[title]{ font-size: 30px;}
+		div[title="demo"]{ font-weight: bold; }
+		div[title*="demo"]{ text-align: center; }
+		div[title="zh"], div[title^="zh-"]{color:#6F6F6F;}
+	</style>
+</body>
+</html>

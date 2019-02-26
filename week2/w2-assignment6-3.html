@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css布局示例3</title>
+</head>
+<body>
+	<style type="text/css">
+		p {
+			text-align: center;
+			color: #606060;	
+			padding: 0px 5px;
+			margin: 0px auto;
+			font-size: 12px;
+		}
+
+		img {
+			height: 60px;
+			width: 60px;
+			margin: 20px auto;
+		}
+
+		.content {
+			position: absolute;
+			margin: 0px 240px;
+			padding: 0px 20px;
+			font-family: "Times New Roman";
+			line-height: 150%;
+		}
+
+		.left {
+			float: left;
+			width: 230px;
+			height: 180px;
+			border: 1px solid #606060;
+			text-align: center;
+		}
+
+		.right {
+			float: right;
+			width: 230px;
+			height: 180px;
+			background-color: #F0F0F0;
+			text-align: center;
+		}
+
+	</style>
+
+	<div class="left">
+		<div><img src="./imgs/cloud.png"></div>
+		<div><p>want the best way to store and serve images and videos? Try Cloud, get your own free account</p></div>
+	</div>
+	<div class="content">
+			Three columns.One fixed-with sidebar for your navigation, another for, say, your google ads or your flickr photos-and, as in a fancy truffle, a liquid center for the real substance. Its wide applicability in this golden age of blogging, along with its considerable difficulty, is what has earned the layout the title of holy grail.
+	</div>
+	</div>
+	<div class="right">
+		<div><img src="./imgs/desk.png"></div>
+		<div><p>A book apart: <br>breif books for people who make websites.</p></div>
+	</div>
+</body>
+</html>

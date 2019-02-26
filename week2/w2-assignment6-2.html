@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css布局示例2</title>
+</head>
+<body>
+	<style type="text/css">
+		.container {
+			border-top: 2px dashed #FF9900;
+		}
+		.right {
+			background-color: #660000;
+			color: #FFFFFF;
+			height: 600px;
+			width: 100px; 
+			float: right;
+		}
+		.left {
+			height: 600px;
+			margin-right: 100px; 
+			background-color: #FFCC66; 
+		}
+	</style>
+	<div class="container">
+		<div class="right">我是固定右边导航栏</div>
+		<div class="left">我是一个自适应宽度的左边输入框，我支持换行不会被右边导航栏所覆盖内容。</div>
+	</div>
+</body>
+</html>

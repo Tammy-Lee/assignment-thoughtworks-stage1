@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css盒模型5.2</title>
+</head>
+<body>
+	<div id="box">
+		<div class="head">源码分类</div>
+		<div class="content"><a href="">ASP</a>(1)</div>
+		<div class="content"><a href="">PHP</a>(0)</div>
+		<div class="content"><a href="">JSP</a>(1)</div>
+	</div>
+	<div id="box">
+		<div class="head">访客</div>
+		<div class="content">暂无访客</div>
+		<div class="content"><a href="">登录</a>后您的头像会在这里</div>
+	</div>
+
+	<style type="text/css">
+		a:link {
+			color: vlue;
+		}
+
+		#box {
+			border: 1px solid #A8A8A8;
+			box-sizing: border-box;
+		}
+
+		.head {
+			background-color: #FFCC99;
+			border: 1px solid #A8A8A8;
+			box-sizing: border-box;
+		}
+
+		.content {
+			box-sizing: border-box;
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	</style>
+</body>
+</html>
